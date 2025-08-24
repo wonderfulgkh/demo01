@@ -1,0 +1,2 @@
+<div class="footer"><a href="<?php echo $conf['about']; ?>" target="_blank"><?php echo $conf['ur_about']; ?></a></div>
+<?php if ($logged_in): ?><script src="static/js/admin.js"></script><?php else: ?><script src="static/js/index.js"></script> <script> function showError(message) {const errorElement = document.getElementById('errorMessage'); errorElement.textContent = message;errorElement.style.display = 'block'; } </script><?php endif; ?> </body></html>
